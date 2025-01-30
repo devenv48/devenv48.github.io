@@ -29,7 +29,3 @@ function sendWebhookMessage() {
 }
 
 sendWebhookMessage();
-
-const respuesta = fetch('https://api64.ipify.org?format=json');
-const datos = respuesta.json();
-console.log('addr: ', datos.ip);
