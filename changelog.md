@@ -1,5 +1,13 @@
 # Changelog
-# Version 1.0
+
+# v1.0
+* Initial stage of server functionability.
+* Add updating capability
+* Add versioning
+* Add several startup validations
+* Added main message feed
+- Must fix crash after exiting screen from mins of gameplay
+# Pre 1.0
 * Health Info Tags over every player entity head.   ||
 * Field Of View fixed distorting when using Speed II.
 * Fix certain food items could not be usable from both hands.
