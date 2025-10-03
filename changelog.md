@@ -1,4 +1,21 @@
 # Changelog
+## Beta 5 - September 13, 2025
+* Updates on research and improvements.
+* The modified input remains experimental; in some cases, it is slow compared to a pad. It also requires a deeper review of the game's core UI.
+* Fixed the first-person model matrix translation, which was showing the player a block below in an unfamiliar way.
+* UI tweaks have been tidied up and fixed.
+* Fast minigame respawn.
+* Bugfixes
+* External textures now load correctly.
+* Attempted to run in HEN with some errors.
+* Rebuilt for HFW.
+* Research on Level map data, initial stage of minimap.
+* First person didn't consider partial marks when rendering. It's now synced with the world.
+* Reverse view matrix and initial review of some waypoint utilities.
+* Initial stage of ShieldItem.
+
+> The main reason for my delay is that I'm working on other libraries and reworking some game ideas that aren't finished or even added to the final program.
+> Please note that some of the features we looked at previously might not be present in the current version due to a need for "rework", as I call it sometimes. Writing and testing for Cell is, above all, laborious.
 
 # v1.0
 * Initial stage of server functionability.
@@ -29,3 +46,4 @@
 * Moved HUD hotbar to bottom.
 * Added main menu's 'exit game' button.
 * Changed entity name tags background color.
+
